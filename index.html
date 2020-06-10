@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>VidyaCafe</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+	<nav>
+		<div class="row">
+			<img src="images/logo_size_invert.jpg" alt="Logo" class="logo">
+			<ul class="main-nav animated slideInDown" id="check-class">
+				<li><a href="#">CAKE DELIVERY</a></li>
+				<li><a href="#">HOW TO ORDER</a></li>
+				<li><a href="#">CHECK MORE</a></li>
+				<li><a href="#">SIGN UP</a></li>
+			</ul>
+			<a href="#" class="mobile-icon" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+		</div>
+	</nav>
+	<div class="main-content-header">
+		<h1>Welcome To <span class="colorchange">Vidya Cafe</span>.<br>
+		House of Cake Lover</h1>
+		<a href="#" class="btn btn-full">CLick to Order</a>
+		<a href="#" class="btn btn-nav">Show me more</a>
+
+	</div>
+</header>
+<script>
+	function slideshow()
+	{
+
+		var x=document.getElementById('check-class');
+		if(x.style.display==="none")
+		{
+		x.style.display="block";
+		}
+		else
+		{
+		x.style.display="none";
+		}
+	}
+</script>
+</body>
+</html>
